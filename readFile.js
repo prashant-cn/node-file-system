@@ -12,7 +12,7 @@ console.log(data) //use try-catch block if error handling needed in sync
 //async
 fs.readFile(textFile, {encoding: 'utf8'}, (error, data)=> {
     if(error){
-        console.log(error);
+        return console.log(error);
     }
     console.log(data)
 })
