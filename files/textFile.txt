@@ -1,2 +1,4 @@
-Prashant Kumar
-Append this textAppend this text from async
+Append this text.Append this text.
+Append this text.
+Append this text.
+Data from buffer.

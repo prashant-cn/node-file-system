@@ -5,7 +5,7 @@ const fs = require('fs')
 
 //file path
 const textFile = "files/textFile.txt"
-let string = "Append this text"
+let string = "\nAppend this text"
 
 fs.open(textFile, 'a', (error, filedescriptor)=> {
     if(error){
@@ -19,7 +19,7 @@ fs.open(textFile, 'a', (error, filedescriptor)=> {
     console.log(`${bytes} bytes written in file.`);
 
     //async
-    fs.write(filedescriptor, `${string} from async\n`, (error, bytes)=> {
+    fs.write(filedescriptor, `${string} from async.`, (error, bytes)=> {
         if(error){
             return console.log(error)
         }
