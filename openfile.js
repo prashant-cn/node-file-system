@@ -1,5 +1,5 @@
 //fs.open(file, flag, [mode], callback) -> asynchronous
-//fs.openSync(file, flag, [mode], callback) -> synchronous
+//fs.openSync(file, flag, [mode]) -> synchronous
 
 const fs = require('fs')
 
